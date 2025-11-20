@@ -1,0 +1,8 @@
+const calculateDiscountedPrice = require('./discountCalculator.js');
+
+const quantity = 10;
+const price = 5;
+const finalPrice = calculateDiscountedPrice(quantity, price);
+console.log(`Final price: ${finalPrice}`);
+
+
